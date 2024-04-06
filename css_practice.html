@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .introduction {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .skills {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .contact a {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .introduction,
+            .skills,
+            .contact {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sylvester Bamidele</h1>
+    </div>
+
+    <div class="introduction">
+        <h2>Introduction</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet leo non massa tincidunt mollis. Proin
+            convallis neque a orci faucibus, a consequat dui placerat. Nullam ultricies tellus sed purus euismod, ut
+            aliquet enim pulvinar.</p>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Responsive Design</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <a href="mailto:sylvesterbamidele@gmail.com">youremail@example.com</a>
+        <a href="https://www.linkedin.com/in/sylvesterbamidele">LinkedIn</a>
+        <a href="https://twitter.com/syl_bamidele">Twitter</a>
+    </div>
+</body>
+
+</html>
